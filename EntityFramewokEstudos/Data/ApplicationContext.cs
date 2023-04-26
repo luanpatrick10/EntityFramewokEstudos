@@ -9,5 +9,6 @@ namespace EntityFramewokEstudos.Data
             optionsBuilder.UseSqlServer("Server=(localdb)\\MyInstance;Integrated Security=true;");
             base.OnConfiguring(optionsBuilder);
         }
+        protected override void OnModl
     }
 }
