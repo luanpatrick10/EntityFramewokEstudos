@@ -6,7 +6,7 @@ namespace EntityFramewokEstudos.Data
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\MyInstance;Integrated Security=true; ");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MyInstance;Integrated Security=true;    ");
             base.OnConfiguring(optionsBuilder);
         }
     }
